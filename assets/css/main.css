@@ -1219,6 +1219,10 @@ input[type="radio"] + label:before {
   background-repeat: no-repeat;
 }
 
+.custom-image {
+    width: 50%; /* Adjust the width as needed */
+    margin-left: 20px; /* Adjust the margin as needed */
+}
 
 /* Image */
 .image {
