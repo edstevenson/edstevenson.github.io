@@ -1220,7 +1220,7 @@ input[type="radio"] + label:before {
 }
 
 .custom-image {
-    width: 50%; /* Adjust the width as needed */
+    width: 60%; /* Adjust the width as needed */
     margin-left: 20px; /* Adjust the margin as needed */
 }
 
