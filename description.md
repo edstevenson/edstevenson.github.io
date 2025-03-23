@@ -1,1 +1,0 @@
-Ed is a PhD student currently working on an ML-based climate model for exoplanets at the Institute of Astronomy in Cambridge.  He grew up in London and did his undergrad and masters in astrophysics at Cambridge. Outside research, Ed likes films, sports and occasionally reading things.
