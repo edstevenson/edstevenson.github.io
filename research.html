@@ -10,6 +10,27 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.contrib { display: flex; align-items: flex-start; gap: 0.85em; }
+			.contrib-num {
+				flex: 0 0 auto;
+				min-width: 1.3em;
+				text-align: right;
+				font-weight: 800;
+				font-size: 2.5em;
+				line-height: 1;
+				color: #f56a6a;
+				opacity: 0.85;
+			}
+			.contrib-body { flex: 1 1 auto; min-width: 0; }
+			.contrib-body > h3:first-child { margin-top: 0.1em; }
+			.tw-video { width: 50%; }
+			@media screen and (max-width: 736px) {
+				.contrib { gap: 0.5em; }
+				.contrib-num { font-size: 1.85em; min-width: 1.1em; }
+				.tw-video { width: 80%; }
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -26,23 +47,38 @@
 										<br>
 										<h1>Research</h1>
 									</header>
-									<h3>ThousandWorlds: A benchmark for climate emulation of potentially habitable exoplanets</h3>
-									<p><strong>Edward T. Stevenson</strong>, Mei Ting Mak, Eric Wolf, Denis E. Sergeev, Tobi Hammond, N. J. Mayne and Miles Cranmer, 2026, <em><a href="https://doi.org/10.48550/arXiv.2606.18338" target="_blank">arXiv:2606.18338</a></em></p>
-									<p><a href="https://doi.org/10.48550/arXiv.2606.18338" target="_blank">Paper</a> &middot; <a href="https://huggingface.co/blog/hugging-science/thousandworlds" target="_blank">Blog</a> &middot; <a href="https://doi.org/10.57967/hf/8695" target="_blank">Dataset</a> &middot; <a href="https://github.com/edstevenson/ThousandWorlds" target="_blank">Code</a></p>
+									<div class="contrib">
+										<div class="contrib-num">3</div>
+										<div class="contrib-body">
+											<h3>ThousandWorlds: A benchmark for climate emulation of potentially habitable exoplanets</h3>
+											<p><strong>Edward T. Stevenson</strong>, Mei Ting Mak, Eric Wolf, Denis E. Sergeev, Tobi Hammond, N. J. Mayne and Miles Cranmer, 2026, <em><a href="https://doi.org/10.48550/arXiv.2606.18338" target="_blank">arXiv:2606.18338</a></em></p>
+											<p><a href="https://doi.org/10.48550/arXiv.2606.18338" target="_blank">Paper</a> &middot; <a href="https://huggingface.co/blog/hugging-science/thousandworlds" target="_blank">Blog</a> &middot; <a href="https://doi.org/10.57967/hf/8695" target="_blank">Dataset</a> &middot; <a href="https://github.com/edstevenson/ThousandWorlds" target="_blank">Code</a></p>
 
-									<span class="image main" style="border: 1.5px solid lightgrey; padding: -1.5px; display: inline-block; width: 50%;"><video src="images/thousandworlds.mp4" poster="images/thousandworlds-poster.jpg" controls loop playsinline preload="metadata" style="display: block; width: 100%; height: auto;"></video></span>
+											<span class="image main tw-video" style="border: 1.5px solid lightgrey; padding: -1.5px; display: inline-block;"><video src="images/thousandworlds.mp4" poster="images/thousandworlds-poster.jpg" controls loop playsinline preload="metadata" style="display: block; width: 100%; height: auto;"></video></span>
+										</div>
+									</div>
 
 									<hr class="major" />
 
-									<h3>Gaussian Process Latent Factor Regression for Low-Data, High-Dimensional Output Problems</h3>
-									<p><strong>Edward T. Stevenson</strong>, Eric T. Wolf, Mei Ting Mak, N. J. Mayne and Miles Cranmer, 2026, <em><a href="https://doi.org/10.48550/arXiv.2606.06576" target="_blank">arXiv:2606.06576</a></em></p>
+									<div class="contrib">
+										<div class="contrib-num">2</div>
+										<div class="contrib-body">
+											<h3>Gaussian Process Latent Factor Regression for Low-Data, High-Dimensional Output Problems</h3>
+											<p><strong>Edward T. Stevenson</strong>, Eric T. Wolf, Mei Ting Mak, N. J. Mayne and Miles Cranmer, 2026, <em><a href="https://doi.org/10.48550/arXiv.2606.06576" target="_blank">arXiv:2606.06576</a></em></p>
+										</div>
+									</div>
 
 									<hr class="major" />
 
-									<h3>Searching for planet-driven dust spirals in ALMA visibilities</h3>
-									<p><strong>Edward T. Stevenson</strong>, Álvaro Ribas, Jessica Speedie, Richard A. Booth and Cathie J. Clarke, 2024, <em><a href="https://doi.org/10.1093/mnras/stae1094" target="_blank">MNRAS 530, 4802-4825</a></em></p>
+									<div class="contrib">
+										<div class="contrib-num">1</div>
+										<div class="contrib-body">
+											<h3>Searching for planet-driven dust spirals in ALMA visibilities</h3>
+											<p><strong>Edward T. Stevenson</strong>, Álvaro Ribas, Jessica Speedie, Richard A. Booth and Cathie J. Clarke, 2024, <em><a href="https://doi.org/10.1093/mnras/stae1094" target="_blank">MNRAS 530, 4802-4825</a></em></p>
 
-									<span class="image main" style="border: 1.5px solid lightgrey; padding: -1.5px; display: inline-block; width: auto;"><img src="images/Poster-1.png" alt="" style="display: block; max-width: 100%; height: auto;" /></span>
+											<span class="image main" style="border: 1.5px solid lightgrey; padding: -1.5px; display: inline-block; width: auto;"><img src="images/Poster-1.png" alt="" style="display: block; max-width: 100%; height: auto;" /></span>
+										</div>
+									</div>
 
 									<!-- <hr class="major" />
 
